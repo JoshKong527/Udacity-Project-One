@@ -1,3 +1,7 @@
+/*----ELEMENT Styles----*/
+/*----------------------*/
+
+
 html, body, html, main {
     max-width: 1025px;
     margin: auto;
@@ -9,36 +13,12 @@ body {
     font-size: 1em;
 }
 
-/* header {
-    text-transform: uppercase;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: right;
-    width: 80%;
-} */
-
-#logo {
-    float: left;
-    padding-left: 65%;
-    font-size: 5em;
-    order: 0;
-    margin: auto;
-    color: burlywood;
-}
-
-.header_one {
-    font-size: 1em;
-    width: 100%;
-    text-align: right;
-}
-
 main {
     margin: 5px; 
     box-shadow: 5px 5px 10px lightgrey;
     text-align: center;
     width: 100%; 
 }
-
 
 footer {
     box-shadow: 5px 5px 10px lightgrey;
@@ -52,6 +32,16 @@ footer a{
     width: 50%;
 }
 
+/*----CLASS Styles----*/
+/*--------------------*/
+
+
+.header_one {
+    font-size: 1em;
+    width: 100%;
+    text-align: right;
+}
+
 .featured_work, .contact_me {
     width: 100%;
     box-shadow: 5px 5px 10px lightgrey;
@@ -61,6 +51,9 @@ footer a{
     text-align: center;
     text-transform: uppercase;
 }
+
+/*----Attempted @media query Styles----*/
+/*-------------------------------------*/
 
 @media screen and (min-width: 400px) {
     
@@ -97,4 +90,17 @@ footer a{
     .images {
         width: 90%;
     }
+}
+
+/*----ID Styles----*/
+/*-----------------*/
+
+
+#logo {
+    float: left;
+    padding-left: 65%;
+    font-size: 5em;
+    order: 0;
+    margin: auto;
+    color: burlywood;
 }
